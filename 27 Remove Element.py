@@ -28,6 +28,7 @@ def removeElement(self, nums, val):
         if valido:
             nums[:] = [x for x in nums if x != val]
 
+
 '''
 Runtime: 15ms
 Memory: 11.58MB
